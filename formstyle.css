@@ -1,0 +1,143 @@
+.main > div {
+	display: none;
+}
+
+.main > div:target {
+	display: block;
+}
+
+#nav {
+	width: 100%;
+      	float: left;
+      	margin: 0 0 0 0;
+      	padding: 0;
+      	list-style: none;
+      	background-color: #f2f2f2;
+      	border-bottom: 1px solid black; 
+      	border-top: 1px solid black; 
+}
+
+#nav li {
+      	float: left; 
+}
+
+#nav li a {
+      	display: block;
+      	padding: 8px 15px;
+      	text-decoration: none;
+      	font-weight: bold;
+      	color: #069;
+      	border-right: 1px solid #ccc; 
+}
+
+#nav #credit {
+      	float : right;
+      	display: block;
+      	padding: 8px 15px;
+      	text-decoration: none;
+      	font-weight: bold;
+      	color: #069;
+      	border-right: 1px solid #ccc; 
+}
+
+#nav li a:hover {
+      	color: red;
+      	background-color: white; 
+}
+
+.general {
+	padding : 1% 5% 5% 5%;
+}
+
+.berhasil_daftar, .login_sukses {
+	background-color : black;
+	margin : 0 auto;
+	width : 50%;
+	color : white;
+}
+
+.header_status {
+	background-color : orange;
+	margin : 0 auto;
+	width : 50%;
+	color : white;
+}
+
+#button-registrasi, #button-login, #BUTTON-LOGOUT {
+	background-color : orange;
+	border-radius : 9px;
+	padding : 12px;
+	font-weight : bold;
+	font-size : 20;
+}
+
+#text-registrasi, #text-login {
+	border-radius : 9px;
+	padding : 5px;
+}
+  
+.container {
+      	width: 100%;
+      	margin: 0 auto;
+      	background-color: white; }
+   
+
+/* untuk jenis pc desktop */
+@media screen and (max-width: 1440px) {
+	.header {
+	background-color : green;
+	padding : 5px;
+	}
+	.between {
+	background-color : white;
+	width : 100%;
+	margin : 0% 0% 5% 0%;
+	}
+	.main {
+	background-color : #CCFFCC;
+	margin : 0 auto;
+	width : 50%;
+	border-radius : 9px;
+	box-shadow : 10px 10px 5px #99FFCC;
+	}
+}
+
+/* untuk jenis tablet landscape */
+@media screen and (max-width: 1060px) {
+	.header {
+	background-color : green;
+	padding : 5px;
+	}
+	.between {
+	background-color : white;
+	width : 100%;
+	margin : 0% 0% 5% 0%;
+	}
+	.main {
+	background-color : #CCFFCC;
+	margin : 0 auto;
+	width : 100%;
+	border-radius : 9px;
+	box-shadow : 10px 10px 5px #99FFCC;
+	}	
+}
+
+/* untuk jenis tablet portrait */
+@media screen and (max-width: 768px) {
+	.header {
+	background-color : green;
+	padding : 5px;
+	}
+	.between {
+	background-color : white;
+	width : 100%;
+	margin : 0% 0% 5% 0%;
+	}
+	.main {
+	background-color : #CCFFCC;
+	margin : 0 auto;
+	width : 100%;
+	border-radius : 9px;
+	box-shadow : 10px 10px 5px #99FFCC;
+	}
+}
